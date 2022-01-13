@@ -1,0 +1,63 @@
+﻿body {
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+img {
+    width: 30%;
+    display: inline-block;
+    justify-content: center;
+    position: relative;
+    padding-left: 50px;
+}
+
+li {
+    text-align: center;
+    font-size: 1.17em;
+    font-weight: bold;
+    list-style-type: none;
+}
+
+ul.ba {
+    text-align:center;
+    list-style-type: none;
+}
+
+label {
+    text-align: center;
+    font-size: 1.17em;
+    font-weight: bold;
+    list-style-type: none;
+    width: 150px;
+    display: inline-block;
+/*    justify-content: center;*/
+    position: relative;
+   
+}
+
+form {
+    text-align: center;
+    display: inline-block;
+/*    justify-content: center;*/
+    position: relative;
+    width: 100%;
+
+}
+textarea {
+    font-size: 1.17em;
+    width: 150px;
+    text-align: center;
+    display: inline-block;
+/*    justify-content: center;*/
+   
+}
