@@ -16,6 +16,7 @@
 
 
     //if statement to figure out the letter grade
+
     if (numericgrade >= 94) {
         var lettergrade = "A";
     } else if (numericgrade >= 90) {
