@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <meta charset="utf-8" />
+    <!--this is the link for the icon that is found in the images folder-->
+    <link rel="shortcut icon" href="~/images/icon.png" type=" = " image /x-icon" />
+    <!--link for the bootstrap first then css page so that what i write on the css page overrides the bootstrap-->
+    <link href="~/lib/bootstrap/css/bootstrap.min.css" />
+    <link href="~/css/css.css" rel="stylesheet" />
+    <!--using viewdata so the title will be dynamic-->
+    <title>@ViewData["Title"]</title>
+    
+</head>
+<body>
+    <!--nav bar that will allow you to go to the home page and the calculator-->
+    <nav>
+        <script src="~/lib/bootstrap/js/bootstrap.min.css"></script>
+        <script src="~/lib/jquery/jquery-3.6.0.min.js"></script>
+        <script src="~/js/grade.js"></script>
+        <a asp-controller="blah" asp-action="Index">Home</a>
+        &nbsp;
+        <a asp-controller="blah" asp-action="Calculator">Calculate Grade</a>
+    </nav>
+
+    <div>
+
+        @RenderBody()
+    </div>
+
+    <!--links to the js bootstrap as well as jquery both found in the lib folder-->
+    <script src="~/lib/bootstrap/js/bootstrap.min.css"></script>
+    <script src="~/lib/jquery/jquery-3.6.0.min.js"></script>
+    <script src="~/js/grade.js"></script>
+</body>
+</html>
